@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Nota</title>
+
+    <link rel="stylesheet" href="/css/nota.css" />
+  </head>
+
+  <body>
+    <header>
+      <!--BERTO: en todos los html: <h1><a ref="/">Notes App</a></h1> -->
+      <h1><a href="/">Notes App</a></h1>
+      <h2>#tag1</h2>
+
+      <nav>
+        <button id="menu">
+          <img src="/img/menu.svg" alt="Abrir / Cerrar Menú" />
+        </button>
+      </nav>
+
+      <p>Hola Patricia<a href="/logout">Salir</a></p>
+    </header>
+
+    <main>
+      <section id="content">
+        <nav>
+          <ul>
+            <li><a href="#">#tag1</a></li>
+            <li><a href="#">#tag2</a></li>
+            <li><a href="#">#tag3</a></li>
+            <li><a href="#">#tag4</a></li>
+            <li><a href="#">#tag5</a></li>
+            <li><a href="#">#tag6</a></li>
+          </ul>
+        </nav>
+
+        <section id="notes">
+          <form action="">
+            <fieldset>
+              <label for="search">Buscar nota:</label>
+              <input type="text" name="search" id="search" />
+            </fieldset>
+            <button><img src="/img/new-note.svg" alt="Nueva nota" /></button>
+          </form>
+          <ul>
+            <li>
+              <h2>Lorem ipsum dolor sit amet.</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+                vero vel voluptas ratione beatae labore optio, voluptatibus
+                numquam alias illo.
+              </p>
+            </li>
+            <li>
+              <h2>Lorem ipsum dolor sit amet.</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+                vero vel voluptas ratione beatae labore optio, voluptatibus
+                numquam alias illo.
+              </p>
+            </li>
+            <li>
+              <h2>Lorem ipsum dolor sit amet.</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+                vero vel voluptas ratione beatae labore optio, voluptatibus
+                numquam alias illo.
+              </p>
+            </li>
+            <li>
+              <h2>Lorem ipsum dolor sit amet.</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+                vero vel voluptas ratione beatae labore optio, voluptatibus
+                numquam alias illo.
+              </p>
+            </li>
+            <li>
+              <h2>Lorem ipsum dolor sit amet.</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+                vero vel voluptas ratione beatae labore optio, voluptatibus
+                numquam alias illo.
+              </p>
+            </li>
+            <li>
+              <h2>Lorem ipsum dolor sit amet.</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+                vero vel voluptas ratione beatae labore optio, voluptatibus
+                numquam alias illo.
+              </p>
+            </li>
+          </ul>
+        </section>
+
+        <article id="note">
+          <form action="">
+            <fieldset>
+              <label for="title">Título de la nota</label>
+              <input
+                type="text"
+                name="title"
+                id="title"
+                value="Lorem ipsum dolor sit amet"
+              />
+            </fieldset>
+            <fieldset>
+              <label for="tags">Tags de la nota</label>
+              <input type="text" name="tags" id="tags" value="#tag1, #tag2" />
+            </fieldset>
+            <p>
+              <a href="">Borrar nota</a>
+            </p>
+            <fieldset>
+              <label for="text">Texto de la nota</label>
+              <textarea>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus debitis reprehenderit nemo fuga voluptatum alias? Pariatur voluptatem laudantium cumque laborum cum facere! Odit nostrum iste quia quam necessitatibus sed ipsam.
+              </textarea>
+            </fieldset>
+
+            <section>
+              <button><img src="/img/go-back.svg" alt="Volver" /></button>
+            </section>
+          </form>
+        </article>
+      </section>
+    </main>
+    <script type="module" src="/js/main.js"></script>
+  </body>
+</html>

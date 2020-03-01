@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:400,700|Press+Start+2P|Raleway:400,700&display=swap");
+
+:root {
+  --bright: #ffffff;
+  --dark: #bdd9bf;
+  --orange: #2e4052;
+  --red: #c86818;
+  --green: #443850;
+  --gray: #aabbaa;
+}
+
+body {
+  background: var(--dark);
+  color: var(--orange);
+  font-family: Raleway, sans-serif;
+}
+
+body h1 {
+  padding: 1rem;
+}
+
+body ul li {
+  list-style: none;
+  font-size: 1.2rem;
+  margin: 1rem;
+}
+
+body ul li a {
+  text-decoration: none;
+  color: var(--orange);
+}
+
+body ul li a:hover {
+  text-decoration: underline;
+}
